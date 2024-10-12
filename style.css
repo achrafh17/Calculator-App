@@ -1,0 +1,165 @@
+body {
+  font-family: "League Spartan", sans-serif;
+  background-color: hsl(222, 26%, 31%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  width: 35vw;
+  height: 97vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 3fr;
+  row-gap: 20px;
+}
+.container-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#clac-logo {
+  font-weight: 600;
+  font-size: 35px;
+  color: hsl(0, 0%, 100%);
+}
+.themes {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#theme-text {
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+}
+.numbers-buttons {
+  margin-top: -40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#numbers-theme {
+  color: white;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 6px;
+}
+.button-holder {
+  width: 65px;
+  height: 25px;
+  background-color: hsl(223, 31%, 20%);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  cursor: pointer;
+}
+.changeThemeButton {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: hsl(6, 63%, 50%);
+  border: none;
+  cursor: pointer;
+}
+.button-holder:hover #changeThemeButton {
+  opacity: 0.8;
+}
+/**----------------------------------------------------------------------------------*/
+.container-two {
+  background-color: hsl(224, 36%, 15%);
+  border-radius: 10px;
+  padding-right: 20px;
+}
+#result {
+  font-weight: 600;
+  font-size: 55px;
+  color: white;
+  text-align: end;
+  
+}
+.container-three {
+  background-color: hsl(223, 31%, 20%);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  padding: 5%;
+  row-gap: 20px;
+  column-gap: 30px;
+}
+.button-number {
+  background-color: hsl(0, 3%, 81%);
+  box-shadow: 1px 2px 1px 1px gray;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  color: hsl(221, 14%, 31%);
+}
+
+.button-number:hover {
+ opacity: 0.8;;
+}
+.reset {
+  background-color: #68749c;
+  grid-column: span 2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+  font-weight: 600;
+  box-shadow: 1px 2px 1px 1px #616f9f;
+  cursor: pointer;
+}
+.reset:hover {
+  opacity: 0.8;
+}
+.equal {
+  background-color: hsl(6, 63%, 50%);
+  grid-column: span 2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 2px 1px 1px hsl(6, 70%, 34%);
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+.equal:hover {
+  opacity: 0.8;
+}
+#DELL-number {
+    background-color:#68749c ;
+    box-shadow: 1px 2px 1px 1px #616f9f;
+    color: white;
+}
+#DELL-number:hover {
+    opacity: 0.8;
+}
+.numbers-themes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+ margin-bottom: -10px;margin-top: 10px;
+ color: white;
+ font-weight: 500;
+}
+#change-theme-one {
+  opacity: 1;
+}
+#change-theme-two {
+  opacity: 0;
+}
+#change-theme-three {
+  opacity: 0;
+}
